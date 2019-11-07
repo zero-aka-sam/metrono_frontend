@@ -1,0 +1,20 @@
+.header_wrapper{
+    display: flex;
+}
+.search_wrapper{
+    background: white;
+    display : flex;
+    outline:none;
+    padding: 0px;
+    border-radius: 2px;
+    border-color: #FCD400;
+    max-width: 100%;
+}
+.search_bar{
+    grid-area: search_icon;
+    max-width: 70%;
+    margin: 0px;
+    padding: 0px;
+}
+
+  

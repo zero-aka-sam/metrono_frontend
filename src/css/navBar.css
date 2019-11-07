@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+body {
+  margin: 0;
+  background: #F5F5F5;
+  font-family: 'Questrial', sans-serif;
+  
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1vw;
+  background: white;
+  border: 0.6px solid #E5E5E5;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.navBrand
+{
+    /* background: green; */
+    margin-right: 1vw;
+    margin-left: 2vw;
+}
+
+.navLocation 
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-items: right;
+    line-height:0px;
+    /* background: blue; */
+}
+
+.navLinks {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    list-style: none;
+  
+}
+
+
+.navLinksEach{
+  padding: 1vw;
+}
+
+.navButtons{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-gap: 1vw;
+  padding : 2vw;
+  /* background: yellowgreen; */
+}
+
+.searchBar{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-gap: 1vw;
+
+}
+
+.button{
+background: #FCD400;
+box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.02);
+border-radius: 2px;
+border: none;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 30px;
+padding-right: 30px;
+font-size: 1vw;
+font-family: 'Questrial', sans-serif;
+font-weight: 500;
+font-size: medium;
+}
+
+.button:hover  {
+  background: black;
+  color: #FCD400;
+
+}
+
+.input{
+  border: 2px solid #FCD400;
+box-sizing: border-box;
+border-radius: 2px;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.inputForm{
+border: 2px solid #FCD400;
+box-sizing: border-box;
+border-radius: 2px;
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 30px;
+padding-right: 30px;
+margin: 1vw 1vh;
+
+}
+
+.authCard{
+  background: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  height: 75vh;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+ 
+}
+
+.authCard h1{
+  margin: 0px;
+}
+
+.form {
+  display: grid;
+  grid-template-rows: repeat(1, auto);
+  align-items: center;
+  
+}
+
+.form button {
+  margin-left: 7px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-top: 2vh;
+}
+
+.label {
+  margin: 1vw 1vh;
+  padding: 0px;
+}
